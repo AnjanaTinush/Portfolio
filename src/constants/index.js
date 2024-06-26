@@ -14,15 +14,16 @@ import {
     mongodb,
     git,
     figma,
-    docker,
+    
     college,
     sliit,
     java,
- 
+    oepm,
+    smart_diary_app,
+    math_game_app,
+    online_book_store,
+
    
-    carrent,
-    jobit,
-    tripguide,
     threejs,
   } from "../assets";
   
@@ -173,68 +174,87 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Politunnel Management System",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+        "This system incorporates a employee management feature that enables users login and download reports, as well as admin can give server rile for employee, visually represented with graphs. Additionally, it includes a employee leave requested and admin approveable and also reset password. To enhance userfriendliness, pop-up windows and toast messages were implemented in the interface.",
+        tags: [
+          {
+            name: "react.JS",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "node.JS",
+            color: "green-text-gradient",
+          },
+          {
+            name: "tailwind",
+            color: "pink-text-gradient",
+          },
+          {
+            name: "mongodb",
+            color: "green-text-gradient",
+          },
+        ],
+      image: oepm,
+      source_code_link: "https://github.com/AnjanaTinush/OEPM_System",
     },
     {
-      name: "Job IT",
+      name: "Smart diary app",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+        "In this mobile app user can write a diary ,edit diary note,delete diary note and user can search specific diary note.",
+        tags: [
+          {
+            name: "Kotlin",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "Mysql",
+            color: "green-text-gradient",
+          },
+        ],
+      image: smart_diary_app,
+      source_code_link: "https://github.com/AnjanaTinush/Note_App-crud-",
     },
     {
-      name: "Trip Guide",
+      name: "Maths game app",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+        "This mobile game includes easy, medium, and hard difficulty choices. When the player selects one, the system generates random quizzes, and a timer starts. After answering the questions, the final score is displayed along with the game's high score.",
+        tags: [
+          {
+            name: "Kotlin",
+            color: "blue-text-gradient",
+          },
+          
+        ],
+      image: math_game_app,
+      source_code_link: "https://github.com/AnjanaTinush/Mobile-game-Kotlin-",
     },
+
+    {
+      name: "Online book store",
+      description:
+        "The administrator of this website application for an online bookstore has the ability to the books for sale, as well as display those books for customers to browse, buy, and purchase.",
+        tags: [
+          {
+            name: "php",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "html",
+            color: "green-text-gradient",
+          },
+          {
+            name: "css",
+            color: "pink-text-gradient",
+          },
+          {
+            name: "javaScript",
+            color: "green-text-gradient",
+          },
+        ],
+      image: online_book_store,
+      source_code_link: "https://github.com/AnjanaTinush/OEPM_System",
+    },  
   ];
   
   export { services, technologies, experiences, testimonials, projects };

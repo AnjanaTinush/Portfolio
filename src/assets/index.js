@@ -27,10 +27,12 @@ import tesla from "./company/tesla.png";
 import college from './company/college.png'
 import sliit from './company/sliit.png'
 import java from './tech/java.png'
+import oepm from './oepm.png'
+import smart_diary_app from './smart_diary_app.png'
+import math_game_app from './math_game_app.png'
+import online_book_store from './online_book_store.png'
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+
 
 export {
   logo,
@@ -58,8 +60,11 @@ export {
   sliit,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  
+  
   java,
+  oepm,
+  smart_diary_app,
+  math_game_app,
+  online_book_store,
 };
