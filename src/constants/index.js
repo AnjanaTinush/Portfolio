@@ -17,7 +17,7 @@ import {
     docker,
     college,
     sliit,
-    
+    java,
  
    
     carrent,
@@ -110,8 +110,8 @@ import {
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "java",
+      icon: java,
     },
   ];
   

@@ -26,6 +26,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import college from './company/college.png'
 import sliit from './company/sliit.png'
+import java from './tech/java.png'
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -60,4 +61,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  java,
 };
