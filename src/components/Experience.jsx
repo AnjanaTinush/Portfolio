@@ -13,7 +13,7 @@ const ExperienceCard = ({experience}) =>(
   date={experience.date}
   iconStyle={{background : experience.iconBg}}
   icon={
-   <div className="flex justify-center items-center w-full h-full">
+   <div className="flex items-center justify-center w-full h-full">
     <img 
     src={experience.icon}
     alt={experience.comapany_name}
@@ -27,7 +27,7 @@ const ExperienceCard = ({experience}) =>(
    <p className="text-secondary text-[16px] font-semibold" style={{margin:0}}>{experience.company_name}</p>
    </div>
 
-   <ul className="mt-5 list-disc ml-5 space-y-2">
+   <ul className="mt-5 ml-5 space-y-2 list-disc">
 {experience.points.map((point,index)=>(
   <li
   key={`experience-point-${index}`}
@@ -47,7 +47,7 @@ const Experience = () => {
     <p className={styles.sectionSubText}>What I have done so far</p>
     <h1 className={styles.sectionHeadText}>Education.</h1>
     </motion.div>
-    <div className="mt-20 flex flex-col">
+    <div className="flex flex-col mt-20">
 <VerticalTimeline>
   {experiences.map((experience ,index)=>(
     <ExperienceCard ket={index} experience={experience}/>
